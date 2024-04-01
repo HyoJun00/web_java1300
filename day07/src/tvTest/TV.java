@@ -20,7 +20,7 @@ public class TV {
 	void chUp() {
 		if(power) {
 			System.out.println("현재 채널 : " + ch);
-			ch++
+			ch++;
 			System.out.println("채널을 1 올립니다. 현재 채널 : " +  ch);
 		}
 	}
